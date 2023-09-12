@@ -39,6 +39,8 @@ const page = async ({ params }: PageProps) => {
       </h1>
 
       <MiniCreatePost session={session} />
+
+      {/* TODO: Show posts in user feed */}
     </>
   );
 };
